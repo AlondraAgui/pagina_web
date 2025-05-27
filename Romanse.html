@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body style="background-color:#FFE4E1;"></body>
+    <title>Romanse</title>
+
+    <style>
+        body {
+          background-image: url("imagenes/fondo.jpg"); /* Cambia "fondo.jpg" por la ruta de tu imagen */
+          background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+          background-position: center;
+          background-repeat: no-repeat;
+          font-family: Arial, sans-serif;
+        }
+    
+      </style>
+
+    <style>
+        body 
+        {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .text-content {
+            width: 50%;
+        }
+
+        .text-content h1 {
+            font-size: 42px;
+            color: #333;
+        }
+
+        .text-content p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            width: 40%;
+        }
+
+        .image-grid img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .text-content, .image-grid {
+                width: 100%;
+            }
+
+            .image-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .romanses-dobles {
+            display: flex;
+            flex-direction: column; /*  se apilan verticalmente */
+            gap: 20px; /* espacio entre los poemas */
+            margin-top: 40px;
+            padding-left: 150px; /* ajusta el margen izquierdo */
+          }
+          
+          .romanse {
+            background-color: transparent; /* sin color de fondo */
+            padding: 0; /* sin relleno */
+            border-radius: 0; /* sin bordes redondeados */
+            max-width: none; /* sin límite de ancho */
+            box-shadow: none; /* sin sombra */
+          }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="text-content">
+            <h1>Versos de amor para sentir y compartir. Un lenguaje actual que te conecta con la pasión y el romance.</h1>
+            <p>Un espacio para los amantes de la poesía que buscan explorar las múltiples facetas del amor.
+                 Descubre poemas de autores clásicos y contemporáneos, que te invitan a reflexionar sobre la naturaleza del romance, 
+                 la pasión y el deseo. Sumérgete en un lenguaje cuidado y evocador, que te transportará a un mundo de sentimientos y emociones.</p>
+        </div>
+        
+        <div class="image-grid">
+            <img src="imagenes\romanse.jpeg" alt="romanse nocturno">
+            <img src="imagenes\mario.jpeg" alt="mario benedetti">
+            <img src="imagenes\imagen1.jpeg" alt="rom">
+        </div>
+    </div>
+
+        <div class="romanses-dobles">
+            <div class="romanse">
+              <p>"Compre un libro para olvidarme de ti y en la primera hoja decía: No se olvida a quién se ama."</p>
+              <strong>Mario benedetti</strong>
+            </div>
+          
+            <div class="romanse">
+              <p>"Yo fui la misma que esperaba, la misma que llamaba y que volvía a ver los caminos con ojos secos de llorar."</p>
+              <strong>Gabriela Mistral</strong>
+            </div>
+          
+            <div class="romanse">
+              <p>"En un sueño, en una sombra, en un soplo, en un suspiro, mi amor va contigo."</p>
+              <strong>Octavio Paz</strong>
+            </div>
+          
+            <div class="romanse">
+              <p>"Te quiero no por quien eres, sino por quien soy cuando estoy contigo."</p>
+              <strong>Gabriel García Márquez</strong>
+            </div>
+    
+            <div class="romanse">
+                <p>"Te pienso en las horas que duelen, cuando el día se dobla en silencio. Fuiste abrazo, y ahora eres eco, una sombra que aún me roza el pecho."</p>
+                <strong>Alondra Aguilar</strong>
+              </div>
+
+</body>
+</html>

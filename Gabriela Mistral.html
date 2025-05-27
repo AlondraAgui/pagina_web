@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body style="background-color:#FFE4E1;"></body>
+    <title>Gabriela Mistral</title>
+
+    <style>
+        body {
+          background-image: url("imagenes/fondo.jpg"); /* Cambia "fondo" por la ruta de tu imagen */
+          background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+          background-position: center; /* Centra la imagen de fondo tanto horizontal como verticalmente.*/
+          background-repeat: no-repeat; /*Evita que la imagen de fondo se repita si es más pequeña que el área del body.*/
+          font-family: Arial, sans-serif; /*Establece la fuente predeterminada para todo el texto dentro del body*/
+        }
+    
+      </style>
+
+    <style>
+        body 
+        {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .text-content {
+            width: 50%;
+        }
+
+        .text-content h1 {
+            font-size: 42px;
+            color: #333;
+        }
+
+        .text-content p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            width: 40%;
+        }
+
+        .image-grid img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .text-content, .image-grid {
+                width: 100%;
+            }
+
+            .image-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+          .info {
+            position: relative;
+            top: 80px;    /* Mueve hacia abajo */
+            left: 40px;    /* Mueve hacia la derecha */
+          }
+
+          .obra {
+            position: relative;
+            top: 120px;    /* Mueve hacia abajo */
+            left: 40px;    /* Mueve hacia la derecha */
+          }
+          
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="text-content">
+            <h1>Gabriela Mistral</h1>
+            <p>Gabriela Mistral es una de las figuras más trascendentales de la literatura hispanoamericana y una de las voces femeninas más
+                 influyentes del siglo XX. Su vida y obra están intrínsecamente ligadas a su vocación de maestra y su profunda sensibilidad humana,</p>
+        </div>
+        
+        <div class="image-grid">
+            <img src="imagenes\ga2.jpg" alt="Gabriela Mistral">
+            <img src="imagenes\ga.jpg" alt="Gabriela Mistral">
+            <img src="imagenes\ga3.jpg" alt="Gabriela Mistral">
+        </div>
+    </div>
+
+    <div class="info">
+        <p>Nacimiento y Orígenes: Lucila de María del Perpetuo Socorro Godoy Alcayaga nació el 7 de abril de 1889 en Vicuña, en el fértil Valle de Elqui, 
+            Chile. Su infancia transcurrió en diversas localidades del valle, siendo Montegrande el lugar al que siempre consideraría su hogar y donde, 
+            por su deseo, fue sepultada.</p>
+        <p>Influencias Familiares: Hija de Juan Jerónimo Godoy Villanueva, un profesor y poeta que abandonó el hogar familiar cuando Lucila era muy joven, 
+            y Petronila Alcayaga Rojas, una modista. Su media hermana mayor, Emelina Molina Alcayaga, quien también era maestra, fue su primera instructora y 
+            una figura fundamental en su formación inicial.</p>
+        <p>Vocación por la Enseñanza: A pesar de las dificultades económicas y la falta de una educación formal completa en su juventud,
+             Mistral mostró una precoz inteligencia y una profunda vocación por la enseñanza. Comenzó a trabajar como profesora ayudante a los quince años.</p>
+        <p>Inicios Literarios: Paralelamente a su labor docente, inició su actividad literaria, colaborando con artículos y poemas en periódicos locales. 
+            Utilizó diversos seudónimos en esta etapa, como "Alguien", "Soledad" y "Alma".</p>
+        <p>Maestra Normalista: En 1910, obtuvo el título de Maestra Normalista en la Escuela Normal N°1 de Niñas de Santiago,
+             lo que legitimó su ejercicio profesional y le permitió acceder a puestos en diversas escuelas a lo largo de Chile, 
+             desde Traiguén y Los Andes hasta Punta Arenas y Temuco.</p>
+        <strong>fallecimiento</strong>
+        <p> 10 de enero de 1957, Hempstead, Nueva York, EE.UU.</p>
+      </div>
+
+      <div class="obra">
+        <strong>Obras Destacadas</strong>
+        <p>Desolación (1922)</p>
+        <P>Ternura (1924)</p>
+        <P>Tala (1938)</p>
+        <p>Lagar (1954)</p>
+        <strong>Reconocimientos:</strong>
+        <p>Premio Nobel de Literatura (1945): por su "poesía lírica, inspirada por poderosas emociones, que ha hecho de su nombre un símbolo de las aspiraciones 
+            idealistas de todo el mundo latinoamericano".</p>
+        <P>Premios nacionales e internacionales en vida.</P>
+        <p>Su rostro aparece en billetes chilenos de 5.000 pesos.</p>
+        <p>Gabriela Mistral no solo dejó una obra literaria de incalculable valor, sino también un ejemplo de vida dedicada al servicio,
+             la compasión y la búsqueda incansable de la belleza y la verdad. Su voz es un faro en el panorama cultural de Chile y del mundo.</p>
+      </div>
+</body>
+</html>

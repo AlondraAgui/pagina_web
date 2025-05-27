@@ -1,0 +1,137 @@
+/* Estilos generales */
+
+body {
+    background-image: url('libros.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #FFB6C1;
+    padding: 15px 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 15px;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    color: gold;
+}
+
+/* Títulos */
+.titulo-principal {
+    font-size: 48px; /* Puedes aumentar este valor */
+    font-weight: bold;
+  }  
+
+/* Caja de texto */
+.mi-caja {
+    background-color: rgba(255, 192, 203, 1.0);
+    width: 80%;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 150px;
+}
+
+/* Imagen */
+.imagen-poesia {
+    max-width: 30%;
+    height: auto;
+}
+
+.imagen-separada {
+    display: block;  /* Asegura que la imagen no esté en línea */
+    margin: 20px auto; /* Añade margen de 20px arriba y abajo, y la centra */
+    padding: 10px; /* Espacio interno opcional */
+    border-radius: 10px; /* Bordes redondeados opcionales */
+}
+
+.imagen-pequena {
+    display: block;  /* Evita que la imagen se alinee con el texto */
+    width: 400px;  /* Ajusta el ancho a 200px (puedes cambiarlo) */
+    height: auto;  /* Mantiene la proporción original de la imagen */
+    margin: 20px auto; /* Separa la imagen y la centra */
+    border-radius: 10px; /* Opcional: redondea los bordes */
+}
+
+
+/* Biografías */
+.biografias {
+    text-align: center;
+    background-color: #FFB6C1;
+    padding: 20px;
+}
+
+.biografias h1 {
+    color: #ea339e;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.biografias .contenedor {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.biografias .autor {
+    text-align: center;
+}
+
+.biografias .autor img {
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.biografias .autor a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ea339e;
+}
+
+.biografias .autor a:hover {
+    text-decoration: underline;
+}
+
+/* Enlace externo */
+.enlace-externo {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.enlace-externo:hover {
+    text-decoration: underline;
+}
+
+  

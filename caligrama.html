@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body style="background-color:#FFE4E1;"></body>
+    <title>caligrama</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+
+        .text-content {
+            width: 50%;
+        }
+
+        .text-content h1 {
+            font-size: 42px;
+            color: #333;
+        }
+
+        .text-content p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            width: 40%;
+        }
+
+        .image-grid img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .text-content, .image-grid {
+                width: 100%;
+            }
+
+            .image-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .caligramas-dobles {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 40px;
+            padding-left: 150px;
+        }
+        .caligrama {
+            background-color: transparent;
+            padding: 0;
+            border-radius: 0;
+            max-width: none;
+            box-shadow: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="text-content">
+            <h1>"Bienvenido, viajero de las letras, a un espacio donde la poesía no solo se lee, sino que también se ve."</h1>
+            <p>En este rincón donde la poesía cobra forma, cada verso se eleva y se entrelaza, creando figuras que hablan sin necesidad de voz. 
+                Los caligramas no solo son letras, son imágenes que susurran historias, son paisajes hechos de palabras, donde el significado y 
+                la forma se funden en una danza visual.</p>
+        </div>
+        
+        <div class="image-grid">
+            <img src="imagenes\caligrama1.jpg" alt="caligrama1">
+            <img src="imagenes\caligrama2.png" alt="caligrama2">
+            <img src="imagenes\caligrama3.png" alt="caligrama3">
+        </div>
+    </div>
+
+    <div class="caligramas-dobles">
+        <div class="caligrama">
+            <p>"Mi alma, como una paloma, vuela en el aire llevando en su pico la rama de olivo, mas su canto se pierde en el viento y su sombra se borra en el río."</p>
+            <strong>Guillaume Apollinaire</strong>
+        </div>
+        <div class="caligrama">
+            <p>Flor de cables,
+               pistilos de filamentos,
+               estambres de luz...
+               ¡Oh lirio fulgurante
+               nacido en los talleres
+               del siglo veinte!</p>
+            <strong>José Juan Tablada</strong>
+        </div>
+        <div class="caligrama">
+            <p>"El sol cayó en el triángulo del agua y el mundo se llenó de peces de oro"</p>
+            <strong>Vicente Huidobro</strong>
+        </div>
+        <div class="caligrama">
+            <p>"Sangre y latido en versos curvos como los caminos del amor perdido."</p>
+            <strong>Vicente Huidobro</strong>
+        </div>
+        <div class="caligrama">
+            <p>"Pececillo de plata que nadas en la tinta del estanque del papel."</p>
+            <strong>José Juan Tablada</strong>
+        </div>
+    </div>
+
+</body>
+</html>
+

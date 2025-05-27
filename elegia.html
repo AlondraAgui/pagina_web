@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <body style="background-color:#FFE4E1;"></body>
+    <title>Romanse</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .text-content {
+            width: 50%;
+        }
+        .text-content h1 {
+            font-size: 42px;
+            color: #333;
+        }
+        .text-content p {
+            font-size: 18px;
+            color: #555;
+        }
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            width: 40%;
+        }
+        .image-grid img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                text-align: center;
+            }
+            .text-content, .image-grid {
+                width: 100%;
+            }
+            .image-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .elegia-dobles {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 40px;
+            padding-left: 150px;
+        }
+        .elegi {
+            background-color: transparent;
+            padding: 0;
+            border-radius: 0;
+            max-width: none;
+            box-shadow: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="text-content">
+            <h1>El dolor y la tristeza son parte de la experiencia humana, y la poesía es una forma de darles voz.</h1>
+            <p>Si el dolor, la tristeza y el sufrimiento te han llevado hasta aquí, te doy la bienvenida.
+            En estos poemas encontrarás un espejo de tus propias emociones, un lugar para sentirte comprendido y acompañado.
+            Te invito a leerlos con el corazón abierto, a reflexionar sobre tus propias experiencias y a encontrar un significado en medio de la oscuridad.</p>
+        </div>
+        
+        <div class="image-grid">
+            <img src="imagenes/triste4.jpeg" alt="tristeza">
+            <img src="imagenes/triste3.jpg" alt="corazon roto">
+            <img src="imagenes/triste.jpeg" alt="soledad">
+        </div>
+    </div>
+
+    <div class="elegia-dobles">
+        <div class="elegi">
+            <p>"Si yo te odiara, mi odio te daría en las palabras, rotundo y seguro; pero te amo y mi amor no se confía a este hablar de los hombres, tan oscuro."</p>
+            <strong>Gabriela Mistral</strong>
+        </div>
+        <div class="elegi">
+            <p>"En la quietud del monte, un búho solitario canta, la noche se alarga."</p>
+            <strong>Natsume Sōseki</strong>
+        </div>
+        <div class="elegi">
+            <p>"Lágrima que cae, Un recuerdo doloroso, El tiempo lo cura."</p>
+            <strong>Chiyo-ni</strong>
+        </div>
+        <div class="elegi">
+            <p>"Alegría que explota, Como burbujas de jabón, Ligera y fugaz."</p>
+            <strong>Santoka Taneda</strong>
+        </div>
+        <div class="elegi">
+            <p>"Una taza humea, El libro abierto espera, Calidez hogareña."</p>
+            <strong>Shiki</strong>
+        </div>
+    </div>
+
+</body>
+</html>
